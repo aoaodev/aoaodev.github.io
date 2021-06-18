@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 970px;
+    padding: 0 15px;
+}
+.center-header{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    z-index: 100;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid #b1b1b1;
+}
+.menu{
+    font-family: OpenSans;
+}
+
+.menu a{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 48px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("bg.jpg") center no-repeat;
+    background-size: cover;
+
+}
+h1{
+    font-size: 60px;
+    font-family: Bebas;
+    letter-spacing: 5.7px;
+}
+.head{
+    text-align: center;
+    color: white;
+}
+.head span{
+    font-family: OpenSans;
+    font-size: 16px;
+}
+
+.second{
+    font-family: OpenSans;
+}
+.second-center{
+    margin-top: 115px;
+    margin-bottom: 115px;
+    text-align: center;
+}
+h2{
+
+    font-weight: bold;
+    font-size: 18px;
+    font-family: OpenSans;
+    white-space: nowrap;
+}
+hr{
+    display: inline-block;
+    border-radius: 7px;
+    width: 50px;
+    height: 2px;
+    border: 2px solid #00A4E5;
+    background-color: #00A4E5;
+}
+.scroll{
+    position: absolute;
+    font-family: OpenSans;
+    font-size: 11px;
+    color: white;
+    bottom: 70px;
+    letter-spacing: 3.7px;
+}
+
+.second-layer{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 76px;
+}
+.block-1{
+    max-width: 382px;
+    text-align: left;
+}
+.block-1 b{
+    letter-spacing: 0.1875px;
+    font-size: 20px;
+}
+
+.block-1 span{
+    color: #00A4E5;
+}
+.block-1 p{
+    line-height: 23px;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.block-2{
+    display: flex;
+    align-items: flex-end;
+}
+
+.gallery-1, .gallery-2, .gallery-3{
+    position: relative;
+    color: white;
+    font-size: 24px;
+    width: 144px;
+    height: 224px;
+    text-align: left;
+    background-color: grey;
+}
+.gallery-1{
+    background: url("block-1.jpg") no-repeat center;
+    background-size: cover;
+}
+.gallery-2{
+    background: url("block-2.jpg") no-repeat center;
+    background-size: cover;
+    margin: 0 23px;
+}
+.gallery-3{
+    background: url("block-3.jpg") no-repeat center;
+    background-size: cover;
+}
+.block-2 b{
+    position: absolute;
+    top: 15px;
+    left: 14px;
+}
+.our-cap{
+    margin-top: 120px;
+}
+.our-cap-head{
+    display: flex;
+    justify-content: space-between;
+}
+.our-cap-head div{
+    text-align: left;
+}
+.our-cap-head-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-cap-head span{
+    line-height: 19px;
+    font-size: 11px;
+    max-width: 405px;
+    margin-right: 32px;
+}
+
+.our-cap-head button{
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.our-cap-content{
+    margin-top: 78px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+.our-cap-block{
+    text-align: left;
+    border: 1px solid #bbbbbb;
+}
+.our-cap-block div{
+    margin: 38px 28px;
+}
+.our-cap-block h3{
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #48555B;
+    margin: 25px 0 13px 0;
+    line-height: 24px;
+}
+.our-cap-block span{
+    font-size: 13px;
+    line-height: 23px;
+    color: #48555B;
+}
+
+.want{
+    font-family: OpenSans;
+    height: 499px;
+    background: url('bg2.jpg') no-repeat center;
+    background-size: cover; 
+    text-align: center;
+}
+.want div{
+    max-width: 350px;
+    padding-top: 120px;
+    margin: 0 auto;
+}
+.want b{
+    display: block;
+    font-size: 30px;
+    line-height: 36px;
+    color: #48555B;
+    letter-spacing: 0.15px;
+}
+.want button{
+    margin-top: 35px;
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+footer{
+    font-family: OpenSans;
+    margin-top: -1px;
+}
+.footer-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171819;
+    height: 100px;
+}
+.footer-input b{
+    font-size: 22px;
+    letter-spacing: 0.84px;
+    color: white;
+}
+.email-input{
+    margin-left: 70px;
+    height: 40px;
+    border: 1px solid #979797;
+    border-right: none;
+    font-size: 14px;
+    padding-left: 16px;
+    outline: none;
+    width: 250px;
+    vertical-align: middle;
+}
+.input-button{
+    margin-left: -4px;
+    height: 40px;
+    width: 150px;
+    background-color: #00A4E5;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    vertical-align: middle;
+}
+.designed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: #171819;
+    font-size: 11px;
+    color: white;
+}
+
+.site-map-center{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0 50px 0;
+}
+.site-map{
+    background-color: #141A20;
+}
+.site-map span{
+    margin-bottom: 15px;
+}
+.footer-head{
+    max-width: 250px;
+}
+.links-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 35px;
+}
+.contact{
+    max-width: 140px;
+}
+.social{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+.social a{
+    filter: grayscale(1) brightness(5);
+}
+.site-map, .site-map a{
+    color: white;
+    text-decoration: none;
+}
+.site-map span, .site-map a{
+    display: block;
+}
+
+.contact, .site-map span{
+    font-size: 11px;
+    letter-spacing: 0.85px;
+}
+.links a{
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("OpenSans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("Bebas.ttf") format("truetype");
+}
+
+
